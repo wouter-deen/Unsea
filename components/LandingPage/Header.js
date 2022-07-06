@@ -24,20 +24,20 @@ export default function Header() {
   )
 
   return (
-    <Flex w="full" align="center" pt={{base: 16, md: 44}} pb={{base: 4, md: 12}} px={8} pos="relative"
+    <Flex w="full" align="center" pt={{base: 24, md: 44}} pb={{base: 4, md: 12}} px={8} pos="relative"
           flexDir="column" bgColor="black"
     >
       <HStack align="center" w="full" maxW="container.xl" spacing={16}>
         <Box flexDir="column" w="full" maxW="container.xl">
-          <Heading fontWeight={900} fontSize="5xl" color="white">
+          <Heading fontWeight={900} fontSize={{base: "3xl", md: "5xl"}} color="white">
             Oplossingsgerichte
             <Box as="span" color="blue.300" textShadow="0px 0px 4px rgba(0,255,0,.6)"> cloud</Box> software
           </Heading>
 
-          <Text color="gray.400" fontSize={{base: "lg", md: "xl"}} maxW="container.md">
-            Met essentiële ervaring in
+          <Text color="gray.400" fontSize={{base: "md", md: "xl"}} maxW="container.md">
+            Met kennis en ervaring in
             <Box as="span" color="blue.400" fontWeight={700}> web development</Box>,
-            <Box as="span" color="blue.400" fontWeight={700}> cloud platforms </Box> en het
+            <Box as="span" color="blue.400" fontWeight={700}> platformeconomie </Box> en het
             <Box as="span" color="blue.400" fontWeight={700}> onderwijs </Box>
              hét aanspreekpunt voor innovatieve digitale platforms
           </Text>

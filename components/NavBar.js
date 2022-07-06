@@ -48,23 +48,23 @@ const NavBar = (props) => {
         p={4}
         w="full"
       >
-        <ChakraImage src={navbarBg ? "logo.svg" : "logo_white.svg"} alt="logo" onClick={() => handleLogoClick()} h="45px"/>
+        <ChakraImage src={navbarBg ? "logo.svg" : "logo_white.svg"} alt="logo" onClick={() => handleLogoClick()} h="40px"/>
         <HStack spacing={6} align="center">
           <HStack display={{base: "none", md: "inline-block"}} spacing={8} color={navbarBg ? "black" : "white"}
                   transition="all ease-in-out 200ms">
-            <NextLink href="/pakket/design">
+            <NextLink href="/projecten">
               <Link fontWeight="semibold">Projecten</Link>
             </NextLink>
-            <NextLink href="/pakket/programmeren">
+            <NextLink href="/over">
               <Link fontWeight="semibold">Over Unsea</Link>
             </NextLink>
-            <NextLink href="/pakket/programmeren">
+            <NextLink href="/contact">
               <Link fontWeight="semibold">Contact</Link>
             </NextLink>
           </HStack>
         </HStack>
         <Flex alignItems="center">
-          <Button size="sm" colorScheme="blue">Log in</Button>
+          <Button size="sm" colorScheme="blue" disabled>Mijn Unsea</Button>
         </Flex>
       </Flex>
     </Flex>
