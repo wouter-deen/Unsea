@@ -48,7 +48,7 @@ export default function Header() {
               <Heading color="gray.50" fontSize="3xl">Wouter Deen</Heading>
               <Text color="gray.300" fontSize="lg" float="right">Eigenaar Unsea</Text>
             </Box>
-            <Image src="/Profielfoto.jpg" maxH="xl" alt="header img" rounded="xl"/>
+            <Image src="/Profielfoto.png" maxH="xl" alt="header img" rounded="xl"/>
           </Box>
         </Show>
 
