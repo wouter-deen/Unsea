@@ -41,14 +41,14 @@ const NavBar = (props) => {
       top="0"
       bg={navbarBg ? "whiteAlpha.800" : "black"}
       zIndex="2"
-      backdropFilter="blur(8px)"
+      backdropFilter="blur(20px)"
     >
       <Flex
         justifyContent="space-between"
         p={4}
         w="full"
       >
-        <ChakraImage src={navbarBg ? "logo.svg" : "logo_white.svg"} alt="logo" onClick={() => handleLogoClick()} h="40px"/>
+        <ChakraImage src={navbarBg ? "logo.svg" : "logo_white.svg"} alt="logo" onClick={() => handleLogoClick()} h="40px" _hover={{cursor: "pointer"}}/>
         <HStack spacing={6} align="center">
           <HStack display={{base: "none", md: "inline-block"}} spacing={8} color={navbarBg ? "black" : "white"}
                   transition="all ease-in-out 200ms">
